@@ -1,0 +1,119 @@
+156 [13092] INFO perfrun.launcher <> - Launcher main begin
+163 [13092] INFO perfrun.launcher <> - MessageCatalogInit finished
+163 [13092] INFO perfrun.launcher <> - Launcher instance created
+163 [13092] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 772 --option-file C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\config\runss.options 
+235 [13092] INFO perfrun.launcher <> - New signal handler callback was added
+364 [13092] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+365 [13092] INFO perfrun.launcher <> - create file finder object
+365 [13092] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff pid = 4294967295
+370 [13092] INFO perfrun.launcher <> - create data directory = C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\data.0
+371 [13092] INFO perfrun.launcher <> - Creating the master collection flag
+382 [13092] INFO perfrun.launcher <> - Done creating the master collection flag
+382 [14884] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+382 [14884] INFO perfrun.sdk <> - Allocating TMU :C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\data.0\systemcollector-20352-sujithlenovo.sc
+383 [14884] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+390 [14884] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+390 [14884] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+390 [14884] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+390 [14884] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+390 [14884] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+390 [14884] INFO perfrun.mrte <> - system-wide mode is 0
+391 [14884] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+497 [14884] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\data.0
+497 [14884] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=sujithlenovo
+497 [14884] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_tpssmrte_javaprof_1.0
+497 [14884] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\runtime;C:\Users\makam\OneDrive\Desktop\FInal2\Final;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Library\mingw-w64\bin;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Library\usr\bin;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Library\bin;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Scripts;C:\Users\makam\OneDrive\Desktop\FInal2\Final\bin;C:\Users\makam\anaconda3\condabin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\msys64\mingw64\bin;C:\python app;C:\Users\makam\anaconda3\bin;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Users\makam\anaconda3;C:\Users\makam\anaconda3\Library\mingw-w64\bin;C:\Users\makam\anaconda3\Library\usr\bin;C:\Users\makam\anaconda3\Library\bin;C:\Users\makam\anaconda3\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310;C:\Users\makam\AppData\Local\Microsoft\WindowsApps;C:\Users\makam\AppData\Local\Programs\Microsoft VS Code\bin;C:\pycharm\PyCharm 2022.1.2\bin;C:\pycharm\PyCharm Community Edition 2022.1.2\bin;C:\src\flutter_windows_3.0.3-stable\flutter\bin;C:\adb;C:\Program Files\Java\jre1.8.0_341\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\App Development\Sdks\flutter_windows_3.7.2-stable.zip\flutter\bin;C:\App Development\Sdks\flutter\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Cloudflare\Cloudflare WARP;C:\Apps\MinGW\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\makam\anaconda3;C:\Users\makam\anaconda3\Library\mingw-w64\bin;C:\Users\makam\anaconda3\Library\usr\bin;C:\Users\makam\anaconda3\Library\bin;C:\Users\makam\anaconda3\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310;C:\Users\makam\AppData\Local\Microsoft\WindowsApps;C:\python app;C:\Users\makam\anaconda3\bin;C:\pycharm\PyCharm 2022.1.2\bin;C:\pycharm\PyCharm Community Edition 2022.1.2\bin;C:\src\flutter_windows_3.0.3-stable\flutter\bin;C:\msys64\mingw32\bin;C:\MinGW\bin;C:\Users\makam\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\makam\AppData\Local\atom\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;.;C:\App Development\Sdks\flutter\bin;C:\Users\makam\AppData\Local\GitHubDesktop\bin;C:\Users\makam\AppData\Roaming\npm;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64;.
+498 [14884] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+498 [14884] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+498 [14884] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+498 [14884] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+498 [14884] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+498 [14884] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+498 [14884] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+498 [14884] INFO perfrun.mrte <> - Data directory: C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\data.0
+498 [14884] INFO perfrun.mrte <> - Mrte plugin is initialized
+499 [14884] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+499 [14884] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+499 [14884] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+499 [14884] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+499 [14884] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+499 [14884] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+500 [14884] INFO perfrun.tpss <> - initialize tpss controller
+500 [14884] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+500 [14884] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+500 [14884] INFO perfrun.tpss <> - default obj-size-min=1024
+500 [14884] INFO perfrun.tpss <> - default hash-table-size=0
+500 [14884] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+500 [14884] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+500 [14884] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+500 [14884] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+500 [14884] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+500 [14884] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+500 [14884] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+500 [14884] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+501 [14884] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+501 [13092] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\runtime;C:\Users\makam\OneDrive\Desktop\FInal2\Final;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Library\mingw-w64\bin;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Library\usr\bin;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Library\bin;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Scripts;C:\Users\makam\OneDrive\Desktop\FInal2\Final\bin;C:\Users\makam\anaconda3\condabin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\msys64\mingw64\bin;C:\python app;C:\Users\makam\anaconda3\bin;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Users\makam\anaconda3;C:\Users\makam\anaconda3\Library\mingw-w64\bin;C:\Users\makam\anaconda3\Library\usr\bin;C:\Users\makam\anaconda3\Library\bin;C:\Users\makam\anaconda3\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310;C:\Users\makam\AppData\Local\Microsoft\WindowsApps;C:\Users\makam\AppData\Local\Programs\Microsoft VS Code\bin;C:\pycharm\PyCharm 2022.1.2\bin;C:\pycharm\PyCharm Community Edition 2022.1.2\bin;C:\src\flutter_windows_3.0.3-stable\flutter\bin;C:\adb;C:\Program Files\Java\jre1.8.0_341\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\App Development\Sdks\flutter_windows_3.7.2-stable.zip\flutter\bin;C:\App Development\Sdks\flutter\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Cloudflare\Cloudflare WARP;C:\Apps\MinGW\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\makam\anaconda3;C:\Users\makam\anaconda3\Library\mingw-w64\bin;C:\Users\makam\anaconda3\Library\usr\bin;C:\Users\makam\anaconda3\Library\bin;C:\Users\makam\anaconda3\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310;C:\Users\makam\AppData\Local\Microsoft\WindowsApps;C:\python app;C:\Users\makam\anaconda3\bin;C:\pycharm\PyCharm 2022.1.2\bin;C:\pycharm\PyCharm Community Edition 2022.1.2\bin;C:\src\flutter_windows_3.0.3-stable\flutter\bin;C:\msys64\mingw32\bin;C:\MinGW\bin;C:\Users\makam\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\makam\AppData\Local\atom\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;.;C:\App Development\Sdks\flutter\bin;C:\Users\makam\AppData\Local\GitHubDesktop\bin;C:\Users\makam\AppData\Roaming\npm;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64;.
+502 [13092] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\runtime\ittnotify_collector.dll
+502 [13092] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\runtime\ittnotify_collector.dll
+502 [13092] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+502 [13092] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\runtime\ittnotify_collector.dll
+503 [13092] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\runtime\ittnotify_collector.dll
+503 [13092] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+503 [13092] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+503 [13092] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+504 [13092] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+504 [13092] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\data.0
+504 [13092] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = sujithlenovo
+505 [13092] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_tpssmrte_javaprof_1.0
+505 [13092] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\runtime;C:\Users\makam\OneDrive\Desktop\FInal2\Final;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Library\mingw-w64\bin;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Library\usr\bin;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Library\bin;C:\Users\makam\OneDrive\Desktop\FInal2\Final\Scripts;C:\Users\makam\OneDrive\Desktop\FInal2\Final\bin;C:\Users\makam\anaconda3\condabin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\msys64\mingw64\bin;C:\python app;C:\Users\makam\anaconda3\bin;C:\Program Files\Microchip\xc8\v2.31\bin;C:\Users\makam\anaconda3;C:\Users\makam\anaconda3\Library\mingw-w64\bin;C:\Users\makam\anaconda3\Library\usr\bin;C:\Users\makam\anaconda3\Library\bin;C:\Users\makam\anaconda3\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310;C:\Users\makam\AppData\Local\Microsoft\WindowsApps;C:\Users\makam\AppData\Local\Programs\Microsoft VS Code\bin;C:\pycharm\PyCharm 2022.1.2\bin;C:\pycharm\PyCharm Community Edition 2022.1.2\bin;C:\src\flutter_windows_3.0.3-stable\flutter\bin;C:\adb;C:\Program Files\Java\jre1.8.0_341\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\App Development\Sdks\flutter_windows_3.7.2-stable.zip\flutter\bin;C:\App Development\Sdks\flutter\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Cloudflare\Cloudflare WARP;C:\Apps\MinGW\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\makam\anaconda3;C:\Users\makam\anaconda3\Library\mingw-w64\bin;C:\Users\makam\anaconda3\Library\usr\bin;C:\Users\makam\anaconda3\Library\bin;C:\Users\makam\anaconda3\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\makam\AppData\Local\Programs\Python\Python310;C:\Users\makam\AppData\Local\Microsoft\WindowsApps;C:\python app;C:\Users\makam\anaconda3\bin;C:\pycharm\PyCharm 2022.1.2\bin;C:\pycharm\PyCharm Community Edition 2022.1.2\bin;C:\src\flutter_windows_3.0.3-stable\flutter\bin;C:\msys64\mingw32\bin;C:\MinGW\bin;C:\Users\makam\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\makam\AppData\Local\atom\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;.;C:\App Development\Sdks\flutter\bin;C:\Users\makam\AppData\Local\GitHubDesktop\bin;C:\Users\makam\AppData\Roaming\npm;C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64;.
+506 [13092] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+506 [13092] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+506 [13092] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+506 [13092] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+507 [13092] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+507 [13092] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+507 [13092] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+507 [13092] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+531 [13092] INFO perfrun.sdk <> - IProcessUtil: the given executable 'python' is valid.
+531 [13092] INFO perfrun.launcher <> - Launcher: command line to start before modification = python profile_ff.py
+541 [13092] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\pin.exe -error_file C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\data.0\pinerr.tpsslog -detach_reattach -probe -follow_execv -p32 C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\pin.exe -p64 C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\pin.exe -t64 C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\tpsstool.dll -t C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin32\tpsstool.dll -server_name tpss_ipc.20352 -prd_dir C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1 -- python profile_ff.py
+541 [13092] INFO perfrun.launcher <> - ProcessCreator object was created
+549 [13092] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+550 [14884] INFO perfrun.itt <> - start itt controller for pid #8792
+555 [14884] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\emon.exe" -M
+561 [14884] INFO perfrun.sdk <> - runCmd started PID 6460
+804 [14884] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\emon.exe" -v
+811 [14884] INFO perfrun.sdk <> - runCmd started PID 9652
+1114 [14884] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\sep.exe" -dry-run -ec CPU_CLK_UNHALTED.THREAD,CPU_CLK_UNHALTED.REF_TSC:sample:sa=2400000,INST_RETIRED.ANY:sample:sa=2400000,CPU_CLK_UNHALTED.DISTRIBUTED,FP_ARITH_INST_RETIRED.SCALAR_SINGLE,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE,UOPS_EXECUTED.X87,UOPS_RETIRED.SLOTS:sample:sa=2000003,UOPS_EXECUTED.THREAD,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE,TOPDOWN.SLOTS:sample:sa=2000003 -experimental
+1123 [14884] INFO perfrun.sdk <> - runCmd started PID 19664
+1434 [14884] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\emon.exe" -u -t 0.050 -l0 -A -C CPU_CLK_UNHALTED.DISTRIBUTED,CPU_CLK_UNHALTED.REF_TSC,CPU_CLK_UNHALTED.THREAD,FP_ARITH_INST_RETIRED.128B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.128B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.256B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.256B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.512B_PACKED_DOUBLE,FP_ARITH_INST_RETIRED.512B_PACKED_SINGLE,FP_ARITH_INST_RETIRED.SCALAR_DOUBLE,FP_ARITH_INST_RETIRED.SCALAR_SINGLE,INST_RETIRED.ANY,TOPDOWN.SLOTS,UOPS_EXECUTED.THREAD,UOPS_EXECUTED.X87,UOPS_RETIRED.SLOTS -f C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\data.0\emon.0.emon -experimental
+1443 [14884] INFO perfrun.sdk <> - runCmd started PID 11744
+1443 [14884] INFO perfrun.emon <> - Waiting trace file creation: C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\data.0\emon.0.emon
+1861 [14884] INFO perfrun.emon <> - trace file was found
+1861 [14884] INFO perfrun.tpss <> - start tpss controller for pid #8792
+1922 [13092] INFO perfrun.launcher <> - Launcher: all plugins were started
+1922 [13092] INFO perfrun.launcher <> - DirectoryMonitor object was created
+1923 [13092] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+1923 [13092] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+1923 [13092] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+1923 [13092] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+1940 [13092] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+22749 [13092] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+22821 [14884] INFO perfrun.itt <> - detach itt controller
+22821 [14884] INFO perfrun.itt <> - detach itt controller done
+22821 [14884] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2024.1\bin64\emon.exe" -stop
+22827 [14884] INFO perfrun.sdk <> - runCmd started PID 2412
+23230 [14884] INFO perfrun.emon <> - EMON collector successfully stopped.
+
+23230 [14884] INFO perfrun.emon <> - Waiting for main Emon process (11744) to finish...
+23345 [14884] INFO perfrun.emon <> - Main Emon process finished
+23345 [14884] INFO perfrun.tpss <> - stop tpss controller
+23353 [14884] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\data.0\systemcollector-20352-sujithlenovo.sc
+23375 [14884] INFO perfrun.system <> - closed the system trace file: C:\Users\makam\OneDrive\Desktop\FInal2\vtune_result_ff\data.0\systemcollector-20352-sujithlenovo.sc
+23375 [13092] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+23375 [13092] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+23375 [13092] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+23376 [13092] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+23376 [13092] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+23379 [13092] INFO perfrun.launcher <> - Application exit code: 0
+23379 [13092] INFO perfrun.launcher <> - Exit code: 0
