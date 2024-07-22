@@ -1,4 +1,4 @@
-# GPT-2 Layer Profiling and Optimization
+![attention1](https://github.com/user-attachments/assets/3b313fb8-57db-4897-8941-da90801f1784)# GPT-2 Layer Profiling and Optimization
 
 This repository contains an analysis and optimization of the attention and feedforward layers in the GPT-2 model. By profiling these layers, we identify performance bottlenecks and propose strategies to enhance their efficiency.
 
@@ -42,10 +42,14 @@ We collected performance metrics across ten trials for both the attention and fe
 ## Profiling Results
 
 ### Attention Layer (Sample 1)
-![Attention Layer Sample 1](path/to/attention1.png)
+
+![attention1](https://github.com/user-attachments/assets/d3f9dcf4-ba70-4ae1-ae04-0897d0649a02)
+
 
 ### Feedforward Layer (Sample 1)
-![Feedforward Layer Sample 1](path/to/ff1.png)
+
+
+![ff1](https://github.com/user-attachments/assets/320811c3-1b74-4738-ba95-9ba1dd27e40c)
 
 ## Insights and Optimization Strategies
 
@@ -75,8 +79,10 @@ By calculating the average values of each metric (excluding CPI Rate) for both l
 
 The following plots visualize the average performance metrics for the attention and feedforward layers:
 
-![Average Performance Metrics](path/to/2.png)
-![Performance Comparison](path/to/5.png)
+![2](https://github.com/user-attachments/assets/88502212-c2c7-463d-a9a6-c21c255ab826)
+
+![5](https://github.com/user-attachments/assets/86ffcaab-6080-4173-9cbf-be32525479c8)
+
 
 ## Usage
 
